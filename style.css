@@ -7,6 +7,13 @@
     "wdth" 100;
 }
 
+/* shared style */
+.btn-primary{
+    background-color: #006A50;
+    color: #FFFFFF;
+    border-radius: 8px;
+}
+
 
 /* nav style */
 
@@ -26,4 +33,47 @@
     color: #006A50;
     border: 1px solid  #006A50;
     border-radius: 8px;
+}
+
+
+/* hero section */
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:  560px;
+    margin: auto 160px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+}
+.title-section{
+    max-width: 60%;
+    max-height: 360px;
+    margin-left: 60px;
+   
+
+}
+
+.hero-subtitle{
+    color: rgba(14, 14, 14, 0.5);
+    font-weight: normal;
+    font-size: 16px;
+    /* margin-bottom: 16px; */
+
+}
+
+.hero-title{
+    
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 100%;
+    margin-bottom: 24px;
+}
+.hero-btn{
+    padding: 17px 34px;
+}
+
+.hero-img{
+    max-height: 400px;
+    margin-right: 60px;
 }
