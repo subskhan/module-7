@@ -29,6 +29,9 @@
     font-weight: normal;
     font-size: 16px;
 }
+.text-align{
+    text-align: center;
+}
 
 
 /* body styles */
@@ -168,6 +171,7 @@ nav{
     font-weight: 600;
     font-size: 16px;
     border: none;
+    margin: auto;
     
 
 }
@@ -204,6 +208,10 @@ nav{
 
 /* jajera section */
 
+.recent-news{
+    margin-bottom: 80px;
+}
+
 .content-container{
     display: flex;
     justify-content: space-between;
@@ -220,23 +228,113 @@ nav{
 .reverse{
     flex-direction: row-reverse;
 }
+.jajera-text-items{
+    max-height: 290px;
+}
 
 
 .jajera-text{
     padding: 0;
     margin: 0;
+    height: 100%;
+     
 }
 .jajera-title{
     padding: 0;
     margin: 0;
+
 }
 .jajera-btn{
     padding: 13px 26px;
-    margin-top: 30px;
-    margin-bottom: 0%;
+    margin: 0;
 
+}
+.sata {
+    max-height: 306px;
 }
 
 .sata img{
     border-radius: 24px;
+    height: 100%;
+}
+
+
+/* donation style */
+
+.donation{
+    margin-bottom: 80px;
+}
+
+
+.taka-card-container{
+    display: flex;
+    gap: 24px;
+    justify-content: space-evenly;
+    margin-top: 32px;
+    
+
+
+}
+
+.taka-card button{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 40px;
+}
+
+.bg-white{
+    background: rgba(255, 255, 255, 1);
+}
+
+.bg-green{
+    background: #C6E4D6;
+}
+
+.taka-message{
+    max-width: 1032px;
+
+}
+
+
+.taka-message button{
+    width: 100%;
+    padding: 40px 400px;
+    background: rgba(255, 255, 255, 1);
+     color: rgba(14, 14, 14, 0.3);
+    font-size: 20px;
+    border: none;
+
+}
+.taka-btn{
+    /* Frame 2 */
+width: 151px;
+height: 56px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: undefined;
+padding: 17px 34px 17px 34px;
+
+
+}
+
+.taka-btn button{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: undefined;
+padding: 17px 34px 17px 34px;
+    
+}
+
+.taka-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    
 }
