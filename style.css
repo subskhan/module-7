@@ -145,7 +145,6 @@ nav{
     font-weight: 600;
     font-size: 16px;
     border: none;
-    
 
 
 }
@@ -171,4 +170,73 @@ nav{
     border: none;
     
 
+}
+
+
+/* younous section style */
+.yonous{
+    
+    background-color: #FFFFFF;
+
+}
+
+.younus-text{
+    padding: 48px 24px;
+    
+
+}
+.text{
+    padding: 0;
+    margin-bottom: 12px;
+    background-image: url("assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+
+}
+.yonous h4{
+    padding: 0;
+    margin-bottom: 4px;
+}
+.hop{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* jajera section */
+
+.content-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    padding: 48px;
+    margin-bottom: 24px;
+
+}
+.pix{
+    margin-bottom: 32px;
+}
+.reverse{
+    flex-direction: row-reverse;
+}
+
+
+.jajera-text{
+    padding: 0;
+    margin: 0;
+}
+.jajera-title{
+    padding: 0;
+    margin: 0;
+}
+.jajera-btn{
+    padding: 13px 26px;
+    margin-top: 30px;
+    margin-bottom: 0%;
+
+}
+
+.sata img{
+    border-radius: 24px;
 }
