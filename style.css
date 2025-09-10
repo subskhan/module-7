@@ -13,6 +13,10 @@
     color: #FFFFFF;
     border-radius: 8px;
 }
+.btn-primary:hover{
+    background-color: #FFFFFF;
+    color: #006A50;
+}
 .title{
     font-weight: bold;
     font-size: 40px;
@@ -63,6 +67,10 @@ nav{
     color: #006A50;
     border: 1px solid  #006A50;
     border-radius: 8px;
+}
+.nav-btn:hover{
+    background-color: #006A50;
+    color: white;
 }
 
 
@@ -154,6 +162,12 @@ nav{
 
 
 }
+.btn-1:hover{
+    background-color: #FFFFFF;
+    color: #5490F5;
+
+
+}
 .btn-2{
     background-color: #09A15C;
     color: #FFFFFF;
@@ -165,6 +179,14 @@ nav{
     border: none;
 
 }
+
+.btn-2:hover{
+    background-color: #FFFFFF;
+    color: #09A15C;
+
+
+}
+
 .btn-3{
     background-color: #FFC239 ;
     color: #FFFFFF;
@@ -175,7 +197,11 @@ nav{
     font-size: 16px;
     border: none;
     margin: auto;
-    
+ }
+ .btn-3:hover{
+    background-color: #FFFFFF;
+    color: #FFC239;
+
 
 }
 
@@ -299,13 +325,13 @@ nav{
 }
 
 .taka-message{
-    max-width: 1032px;
+    max-width: 1232px;
 
 }
 
 
-.taka-message button{
-    width: 100%;
+.taka-message input{
+    width: auto;
     padding: 40px 400px;
     background: rgba(255, 255, 255, 1);
      color: rgba(14, 14, 14, 0.3);
@@ -336,6 +362,7 @@ nav{
 
 .taka-container{
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
     gap: 26px;
@@ -344,13 +371,17 @@ nav{
  .taka-container p{
     margin-bottom: 0;
  }
+ .taka-hover:hover{
+    background-color: rgba(103, 192, 195, 1);
+    color: white;
+}
   
 
  /* newsletter ::selection */
 
  .newsletter{
     max-height: 395px;
-    margin-bottom: 80px;
+    margin-bottom: 200px;
  }
 
  .news{
@@ -381,6 +412,9 @@ nav{
     border: none;
     border-radius: 10px 0 0 10px;
  }
+ .news-description{
+    margin: 30px 120px 40px 120px;
+ }
 
  /* footer section  */
 
@@ -396,3 +430,4 @@ nav{
     list-style: none;
     gap: 23px;
  }
+
